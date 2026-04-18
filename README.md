@@ -22,29 +22,29 @@ Facebook access was successfully blocked. The browser returns a timeout error, c
 
 ## Screenshots
 
-### Lab environment
-![Lab environment](Lab environment (VirtualBox + Windows + pfSense).png)
+## Lab environment
+<img src="Lab environment (VirtualBox + Windows + pfSense).png" width="700"/>
 
-### pfSense dashboard
-![Dashboard](pfSense dashboard.png)
+## pfSense dashboard
+<img src="pfSense dashboard.png" width="700"/>
 
-### Firewall alias (Facebook domains)
-![Alias](Firewall alias for Facebook blocking.png)
+## Firewall alias (Facebook domains)
+<img src="Firewall alias for Facebook blocking.png" width="700"/>
 
-### Firewall rule
-![Firewall rule](Firewall rules with Facebook block rule.png)
+## Firewall rule
+<img src="Firewall rules with Facebook block rule.png" width="700"/>
 
-### DNSBL configuration
-![DNSBL](pfBlockerNG DNSBL configuration.png)
+## DNSBL configuration
+<img src="pfBlockerNG DNSBL configuration.png" width="700"/>
 
-### Reset firewall states
-![Reset states](Reset firewall states.png)
+## Reset firewall states
+<img src="Reset firewall states.png" width="700"/>
 
-### Flush DNS cache
-![DNS flush](DNS cache flush on Windows.png)
+## Flush DNS cache
+<img src="DNS cache flush on Windows.png" width="700"/>
 
-### Blocked result
-![Blocked](Facebook blocked (connection timeout).png)
+## Blocked result
+<img src="Facebook blocked (connection timeout).png" width="700"/> 
 
 ## Skills Gained
 - Firewall configuration
