@@ -9,28 +9,45 @@ This lab demonstrates how to block access to Facebook using pfSense firewall and
 - VirtualBox
 - Windows 10 VM
 
-## What I did
+## What I Did
 - Installed and configured pfBlockerNG
-- Created firewall rules to block Facebook
-- Configured DNSBL filtering
-- Tested connectivity before and after blocking
+- Created firewall alias for Facebook domains
+- Configured firewall rules to block traffic
+- Set up DNSBL filtering
+- Flushed DNS cache on Windows
+- Verified blocking result
 
 ## Result
 Facebook access was successfully blocked. The browser returns a timeout error, confirming that traffic is filtered.
 
 ## Screenshots
 
-### Blocked access
-![Blocked](screenshots/blocked.png)
+### Lab environment
+![Lab environment](Lab environment (VirtualBox + Windows + pfSense).png)
+
+### pfSense dashboard
+![Dashboard](pfSense dashboard.png)
+
+### Firewall alias (Facebook domains)
+![Alias](Firewall alias for Facebook blocking.png)
 
 ### Firewall rule
-![Firewall](screenshots/firewall.png)
+![Firewall rule](Firewall rules with Facebook block rule.png)
 
-### pfBlockerNG setup
-![Setup](screenshots/setup.png)
+### DNSBL configuration
+![DNSBL](pfBlockerNG DNSBL configuration.png)
 
-## 📚 Skills gained
+### Reset firewall states
+![Reset states](Reset firewall states.png)
+
+### Flush DNS cache
+![DNS flush](DNS cache flush on Windows.png)
+
+### Blocked result
+![Blocked](Facebook blocked (connection timeout).png)
+
+## Skills Gained
 - Firewall configuration
-- DNS filtering
+- DNS filtering (DNSBL)
 - Network troubleshooting
 - Traffic control using pfSense
